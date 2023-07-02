@@ -28,7 +28,6 @@ The portfolio website is built using the following technologies:
 - HTML: Used for structuring the web pages and content.
 - CSS: Used for styling the website, including layout, typography, colors, and animations.
 - JavaScript: Used for interactive elements, form validation, and smooth transitions.
-- [Insert any additional libraries or frameworks used, if applicable]
 
 ## Getting Started
 To get started with the portfolio website locally, follow these steps:
