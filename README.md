@@ -1,4 +1,4 @@
-![Header Image]([https://github.com/Lossttt/alfa-portfolio-v2/blob/main/images/github-header-image.png])
+![Header Image](https://github.com/Lossttt/alfa-portfolio-v2/blob/main/images/github-header-image.png)
 
 This is the second version of my portfolio website, featuring enhanced features and an improved design. The website is built using HTML, CSS, and JavaScript.
 
