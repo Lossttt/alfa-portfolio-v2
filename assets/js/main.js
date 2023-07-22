@@ -55,9 +55,9 @@ const contactForm = document.getElementById('contact-form'),
 
 const sendEmail = (e) =>{
     e.preventDefault()
-    // Check if the field has a value
+    // Check if each field has a value
     if(contactName.value===''||contactEmail.value===''||contactProject.value===''){
-        // Remove blue color and add red color
+
         contactMessage.classList.remove('color-blue')
         contactMessage.classList.add('color-red')
         // Show message
@@ -74,9 +74,10 @@ const sendEmail = (e) =>{
                     contactMessage.textContent=''
                 },5000)
             }, (error) => {
+                // Throw an error 
                 alert('Oops! Please try again!', error)
             })
-        // Clear the input field
+        // Clear the input fields
         contactName.value = ''
         contactEmail.value = ''
         contactProject.value = ''
@@ -108,6 +109,7 @@ window.addEventListener('scroll', scrollActive)
 
 /*=============== SHOW SCROLL UP ===============*/ 
 const scrollUp = () =>{
+    // scroll up animation when the button gets pressed
 	const scrollUp = document.getElementById('scroll-up')
 
 	this.scrollY >= 4250 ? scrollUp.classList.add('show-scroll')
@@ -118,6 +120,7 @@ window.addEventListener('scroll', scrollUp)
 /*=============== DARK LIGHT THEME ===============*/ 
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
+// icon variable that changes when a certain theme gets selected
 const iconTheme = 'ri-sun-line'
 
 // Previously selected topic (if user selected)
