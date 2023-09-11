@@ -439,6 +439,8 @@ body.dark-theme{
   border-radius: 3rem;
   place-items: center;
   margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
   transition: background .4s;
 }
 
@@ -1309,3 +1311,6 @@ body.dark-theme{
     margin-top: 5rem;
   }
 }
+
+/* Developed by @ alfa */
+
